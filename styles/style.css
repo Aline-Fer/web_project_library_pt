@@ -98,21 +98,25 @@
   background-image: url(../images/staff_picks_background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 100px 0 140px;
 }
 
 .staff__title{
-  color:white;
   text-align: center;
   font-size: 44px;
-  margin-bottom: 10px;
+  line-height: 52px;
+  font-weight: 400;
+  margin: 0 0 24px;
+  color: #ffffff;
 }
 
 .staff__subtitle{
-  color: white;
   text-align: center;
   font-size: 20px;
-  margin-bottom: 68px;
-  margin-top: 50px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+  color: #ffffff;
 }
 
 .staff__cards{
@@ -131,12 +135,10 @@
  }
 
 .card{
-  background-color: white;
-  box-sizing: border-box;
-  width: 360px;
-  height: 420px;
+  background-color: #fff;
+  border-radius: 6px;
   padding: 32px 40px 20px 32px;
-  border-radius: 8px;
+  box-sizing: border-box;
 }
 
 .card__content{
@@ -149,20 +151,19 @@
 .card__title{
   font-size: 20px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
 }
 
 .card__text{
-  margin-top: 20px;
+  margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
 }
 
 .card__footer{
-  margin:0;
+  margin: 0;
   font-size: 14px;
   line-height: 20px;
   color: #808080;
-  margin-top: auto;
 }
